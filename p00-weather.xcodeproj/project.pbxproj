@@ -11,8 +11,9 @@
 		BD051DBB26FA6D2400B97EDB /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD051DBA26FA6D2400B97EDB /* View+Extensions.swift */; };
 		BD051DBE26FA714600B97EDB /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD051DBD26FA714600B97EDB /* HourlyWeather.swift */; };
 		BD051DC026FA789C00B97EDB /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD051DBF26FA789C00B97EDB /* DailyWeather.swift */; };
+		BD12DD4926FAA0C8000A1E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12DD4826FAA0C8000A1E4F /* ContentView.swift */; };
 		EA933F2826FA6630002B6395 /* p00_weatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA933F2726FA6630002B6395 /* p00_weatherApp.swift */; };
-		EA933F2A26FA6630002B6395 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA933F2926FA6630002B6395 /* ContentView.swift */; };
+		EA933F2A26FA6630002B6395 /* ContentViewCompleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA933F2926FA6630002B6395 /* ContentViewCompleted.swift */; };
 		EA933F2C26FA6632002B6395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA933F2B26FA6632002B6395 /* Assets.xcassets */; };
 		EA933F2F26FA6632002B6395 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA933F2E26FA6632002B6395 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -22,9 +23,10 @@
 		BD051DBA26FA6D2400B97EDB /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		BD051DBD26FA714600B97EDB /* HourlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeather.swift; sourceTree = "<group>"; };
 		BD051DBF26FA789C00B97EDB /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		BD12DD4826FAA0C8000A1E4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA933F2426FA6630002B6395 /* p00-weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "p00-weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA933F2726FA6630002B6395 /* p00_weatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p00_weatherApp.swift; sourceTree = "<group>"; };
-		EA933F2926FA6630002B6395 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA933F2926FA6630002B6395 /* ContentViewCompleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewCompleted.swift; sourceTree = "<group>"; };
 		EA933F2B26FA6632002B6395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA933F2E26FA6632002B6395 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA933F3026FA6632002B6395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				EA933F2726FA6630002B6395 /* p00_weatherApp.swift */,
-				EA933F2926FA6630002B6395 /* ContentView.swift */,
+				EA933F2926FA6630002B6395 /* ContentViewCompleted.swift */,
+				BD12DD4826FAA0C8000A1E4F /* ContentView.swift */,
 				BD051DBC26FA712600B97EDB /* Models */,
 				BD051DB726FA6C7D00B97EDB /* Helpers */,
 				BD051DB626FA695700B97EDB /* Support */,
@@ -174,8 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA933F2A26FA6630002B6395 /* ContentView.swift in Sources */,
+				EA933F2A26FA6630002B6395 /* ContentViewCompleted.swift in Sources */,
 				BD051DB926FA6C8700B97EDB /* Colors.swift in Sources */,
+				BD12DD4926FAA0C8000A1E4F /* ContentView.swift in Sources */,
 				BD051DC026FA789C00B97EDB /* DailyWeather.swift in Sources */,
 				BD051DBB26FA6D2400B97EDB /* View+Extensions.swift in Sources */,
 				BD051DBE26FA714600B97EDB /* HourlyWeather.swift in Sources */,
